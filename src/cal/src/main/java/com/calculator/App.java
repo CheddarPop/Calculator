@@ -1,4 +1,4 @@
-package com.chavvicalc;
+package com.calculator;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char command;
+        char command= ' ';
 
         // Display the calculator menu
         do {
@@ -71,7 +71,7 @@ public class App {
     // Method to print the calculator menu and display A and B values
     private static void printMenu() {
         System.out.printf("---------------------------------\n");
-        System.out.printf("Chavvi Calc\n");
+        System.out.printf("Calculator\n");
         System.out.printf("---------------------------------\n");
         System.out.printf("A = %.3f\t\tB = %.3f\n", A, B);
         System.out.println("a\tEnter a value for A");
